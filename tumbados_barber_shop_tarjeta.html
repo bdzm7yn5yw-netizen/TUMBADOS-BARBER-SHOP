@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TUMBADOS BARBER SHOP</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#111;color:#fff;display:flex;justify-content:center;min-height:100vh}
+.card{width:min(430px,100%);min-height:100vh;padding:34px 22px 28px;background:linear-gradient(160deg,#151515,#252525);text-align:center}
+.logo{width:92px;height:92px;border:2px solid #d6b36a;border-radius:50%;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:800;color:#d6b36a}
+h1{margin:0;font-size:30px;letter-spacing:2px}
+.tag{margin:10px 0 26px;color:#d6b36a;font-size:16px;font-weight:600}
+.info{color:#ddd;font-size:14px;line-height:1.7;margin-bottom:22px}
+.buttons{display:grid;gap:12px}
+a,button{display:block;width:100%;padding:15px;border-radius:12px;border:1px solid #d6b36a;background:#d6b36a;color:#111;text-decoration:none;font-size:16px;font-weight:700;cursor:pointer}
+.secondary{background:transparent;color:#fff}
+.wifi{display:none;margin-top:12px;padding:16px;border:1px solid #555;border-radius:12px;background:#181818;color:#eee;line-height:1.7}
+.small{margin-top:24px;color:#888;font-size:12px}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="logo">TB</div>
+  <h1>TUMBADOS BARBER SHOP</h1>
+  <div class="tag">Más que un corte, una experiencia</div>
+
+  <div class="info">
+    🕘 Lunes a domingo · 9:00 a.m. – 8:00 p.m.
+  </div>
+
+  <div class="buttons">
+    <a href="https://wa.me/529542033801" target="_blank">💬 WhatsApp</a>
+    <a href="tel:+529542033801">📞 Llamar</a>
+    <a href="https://maps.google.com/?q=15.853014,-97.052673" target="_blank">📍 Cómo llegar</a>
+    <a href="https://www.instagram.com/tumbados_2/" target="_blank">📸 Instagram · @tumbados_2</a>
+    <button class="secondary" onclick="document.getElementById('wifi').style.display=document.getElementById('wifi').style.display==='block'?'none':'block'">📶 Ver Wi-Fi</button>
+  </div>
+
+  <div id="wifi" class="wifi">
+    <strong>Red Wi-Fi:</strong> INFINITUM6FE7<br>
+    <strong>Contraseña:</strong> tzh4fRX93c
+  </div>
+
+  <div class="small">TUMBADOS BARBER SHOP</div>
+</main>
+</body>
+</html>
